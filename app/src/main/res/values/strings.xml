@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ViPER4Jwxa</string>
+    <string name="xposed_description">全局开启Viper</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

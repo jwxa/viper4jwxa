@@ -1,0 +1,20 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="全局设定">
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="viper"
+            android:summaryOff="关闭"
+            android:summaryOn="开启"
+            android:title="是否开启viper"/>
+        <Preference
+            android:key="version"
+            android:summary="1.0.1"
+            android:title="关于">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/jwxa/"/>
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>
